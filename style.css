@@ -1,10 +1,38 @@
 #body1{
-    background-color: black;
+  background-color: #181818;
+    color: white;
+    font-family: Arial;
+    padding: 20px;
 }
-h1,h2,h3,p{
-    color: aliceblue;
+
+
+h1 {
+    color: red;
+    text-align: center;
 }
-img{
-    border: red 5px solid;
-    border-radius: 4px;
+
+h2 {
+    color: #ff4444;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid red;
+    border-radius: 12px;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
 }
