@@ -1,3 +1,10 @@
 #body1{
     background-color: black;
 }
+h1,h2,h3,p{
+    color: aliceblue;
+}
+img{
+    border: red 5px solid;
+    border-radius: 4px;
+}
