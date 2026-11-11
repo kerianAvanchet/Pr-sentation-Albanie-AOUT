@@ -9,14 +9,16 @@
 
 
 h1 {
-    color: red;
+    color: rgb(2, 2, 2);
     text-align: center;
 }
 
 h2 {
-    color: #ff4444;
+    color: #000000;
 }
-
+#h2_1{
+    color: #000000;
+}
 p {
     line-height: 1.6;
     color: #fffefe;
@@ -115,6 +117,97 @@ footer a {
 footer a:hover {
     color: red;
 }
+
+/*Habitant*/ 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.7;
+}
+
+header {
+    background: linear-gradient(135deg, #9e0000, #e31b23);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+    border-bottom: 6px solid #222;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #b00000;
+    font-size: 26px;
+    margin-bottom: 15px;
+    border-left: 5px solid #b00000;
+    padding-left: 12px;
+}
+
+section p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+#graphique {
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    margin: 25px auto 0;
+    border-radius: 10px;
+    border: 2px solid #eee;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 15px;
+}
+p{
+    color: #181818;
+}
+
+
 
 
 
