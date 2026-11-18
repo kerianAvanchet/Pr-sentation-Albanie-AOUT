@@ -91,7 +91,7 @@ main {
 }
 
 /* LIENS */
-#footer1 a {
+.footer1 a {
     display: inline-block;
     background: #c90000;
     color: white;
@@ -105,7 +105,7 @@ main {
     border: 2px solid white;
 }
 
-#footer1 a:hover {
+.footer1 a:hover {
     background: white;
     color: #c90000;
     transform: translateY(-5px);
